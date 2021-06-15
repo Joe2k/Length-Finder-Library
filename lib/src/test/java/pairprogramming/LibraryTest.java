@@ -43,4 +43,11 @@ class LibraryTest {
         double expectedResult = 5;
         assertEquals(codingResult, expectedResult, "Testing different negative floating point");
     }
+
+    @Test 
+    void testDifferentDecimalFloatingPoint() {
+        double codingResult = classUnderTest.findLength(0.0, 0.0, 0.3, 0.4);
+        double expectedResult = 0.5;
+        assertEquals(codingResult, expectedResult, "Testing different negative floating point");
+    }
 }
