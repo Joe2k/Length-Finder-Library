@@ -11,21 +11,25 @@ A simple and reusable utilities in Java that gives you the length between two po
 
 -   Return length between two points
 
-## How to use
+## How to build
 
-```
+```bash
+    gradle build
 
 ```
 
 ## How to test
 
-```
+```bash
+    gradle test
 
 ```
 
-## How to build
+## How to run
 
-```
+```bash
+    gradle run --args='<X coordinate of point 1> <Y coordinate of point 1> <X coordinate of point 2> <Y coordinate of point 2>'
 
+eg. gradle run --args='2 4 5 6'
 
 ```
